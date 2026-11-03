@@ -26,5 +26,10 @@ public class GameManager : MonoBehaviour
     {
         currentLoveMeter += amount;
         loveSlider.value = currentLoveMeter;
+
+        if (currentLoveMeter >= maxLoveMeter)
+        {
+            currentLoveMeter = maxLoveMeter;
+        }
     }
 }
