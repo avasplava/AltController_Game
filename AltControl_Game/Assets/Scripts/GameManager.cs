@@ -32,4 +32,15 @@ public class GameManager : MonoBehaviour
             currentLoveMeter = maxLoveMeter;
         }
     }
+
+    public void ProgressDecrease(float amount)
+    {
+        currentLoveMeter -= amount;
+        loveSlider.value = currentLoveMeter;
+
+        if (currentLoveMeter <= 0)
+        {
+            currentLoveMeter = 0;
+        }
+    }
 }
