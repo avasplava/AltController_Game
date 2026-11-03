@@ -772,6 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeacherStates
   stateText: {fileID: 264907025}
+  gm: {fileID: 1218314132}
   teacherState: 0
 --- !u!1 &1290285117
 GameObject:
