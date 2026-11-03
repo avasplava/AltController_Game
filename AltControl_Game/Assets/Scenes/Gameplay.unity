@@ -771,6 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f46923bf4b292045a19bbd447ed54c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeacherStates
+  stateText: {fileID: 264907025}
   teacherState: 0
 --- !u!1 &1290285117
 GameObject:

@@ -1,13 +1,15 @@
+using TMPro;
 using UnityEngine;
 
 public class TeacherStates : MonoBehaviour
 {
+    public TMP_Text stateText;
 
-    public enum TEACHER_STATE
+    public enum TEACHER_STATE //Lets me design seperate states for the teacher, hopefully making it easier to playtest
     {
         Safe,
         Sus,
-        Alert
+        Danger
     }
 
     public TEACHER_STATE teacherState;
@@ -15,7 +17,7 @@ public class TeacherStates : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        stateText.text = ("State: Safe");
     }
 
     // Update is called once per frame
@@ -24,17 +26,20 @@ public class TeacherStates : MonoBehaviour
         switch (teacherState)
         {
             case TEACHER_STATE.Safe:
+                stateText.text = ("State: Safe");
                 //Teacher sprite is normal teaching sprite
                 //Every 5 seconds? make the teacher choose wheter or not to go into the Sus state
                 break;
 
             case TEACHER_STATE.Sus:
+                stateText.text = ("State: Sus");
                 //Teacher sprite changes to the suspicious sprite gasp
                 //This can be used to pysch the players out hehe
                 //Can make the script decided whether the teacher switches back to Safe state or go into Alert state
                 break;
 
-            case TEACHER_STATE.Alert:
+            case TEACHER_STATE.Danger:
+                stateText.text = ("State: Danger!");
                 //Teacher sprite changes to Alert sprite
                 //The main important one to decide whether the player gets caught or not
                 //Was thinking that the player loses progress if they aren't seen working and if they are caught holding hands they lose the game?
