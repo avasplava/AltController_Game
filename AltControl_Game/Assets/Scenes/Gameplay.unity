@@ -527,10 +527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89840ece6060c294ca0dfca3b37592bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  maxLoveMeter: 0
+  maxLoveMeter: 100
   currentLoveMeter: 0
-  playerOneSlider: {fileID: 1979340702}
-  playerTwoSlider: {fileID: 0}
+  loveSlider: {fileID: 1979340702}
 --- !u!1 &1290285117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1148,7 +1147,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1731433867}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
