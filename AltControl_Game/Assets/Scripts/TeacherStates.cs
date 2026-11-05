@@ -42,15 +42,15 @@ public class TeacherStates : MonoBehaviour
                     //RANDOM THINGY HERE GAH
                     int stateChangeChance = Random.Range(1, 10);
 
-                    if (stateChangeChance <= 5)
+                    if (stateChangeChance <= 4)
                     {
-                        Debug.Log("Safe State");
+                        Debug.Log("Change to Safe State");
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 6)
+                    if (stateChangeChance >= 5)
                     {
-                        Debug.Log("Sus State");
+                        Debug.Log("Change to Sus State");
                         teacherState = TEACHER_STATE.Sus;
                         teacherTime = 0f;
                     }
@@ -62,6 +62,23 @@ public class TeacherStates : MonoBehaviour
                 //Teacher sprite changes to the suspicious sprite gasp
                 //This can be used to pysch the players out hehe
                 //Can make the script decided whether the teacher switches back to Safe state or go into Alert state
+                if (teacherTime >= 5f)
+                {
+                    int stateChangeChance = Random.Range(1, 10);
+
+                    if (stateChangeChance <= 4)
+                    {
+                        Debug.Log("Change to Safe State");
+                        teacherState = TEACHER_STATE.Safe;
+                        teacherTime = 0f;
+                    }
+                    if (stateChangeChance >= 5)
+                    {
+                        Debug.Log("Change to Sus State");
+                        teacherState = TEACHER_STATE.Danger;
+                        teacherTime = 0f;
+                    }
+                }
                 break;
 
             case TEACHER_STATE.Danger:
