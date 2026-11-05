@@ -38,7 +38,22 @@ public class TeacherStates : MonoBehaviour
                 //Every 5 seconds? make the teacher choose wheter or not to go into the Sus state
                 if (teacherTime >= 5f)
                 {
-                    Debug.Log("Timer hit 5 seconds");
+                    Debug.Log("Timer hit 5 seconds, teacher going into Sus mode maybe idk bruh");
+                    //RANDOM THINGY HERE GAH
+                    int stateChangeChance = Random.Range(1, 10);
+
+                    if (stateChangeChance <= 5)
+                    {
+                        Debug.Log("Safe State");
+                        teacherState = TEACHER_STATE.Safe;
+                        teacherTime = 0f;
+                    }
+                    if (stateChangeChance >= 6)
+                    {
+                        Debug.Log("Sus State");
+                        teacherState = TEACHER_STATE.Sus;
+                        teacherTime = 0f;
+                    }
                 }
                 break;
 
