@@ -27,12 +27,12 @@ public class PlayerInput : MonoBehaviour
 
         playerTwoWorking = Input.GetKey(KeyCode.D);
 
-        //Debug.Log("Player One Working: " + playerOneWorking); TJ !comment out cause fills up debug log too much
+        //Debug.Log("Player One Working: " + playerOneWorking); //TJ I commented these out cause fills up debug log too much
         //Debug.Log("Player Two Working: " + playerTwoWorking);
 
         if (Input.GetButton("Jump")) //GetButton counts holds as well, GetButtonDown only detects a click if that makes sense
         {
-            gm.ProgressGain(0.05f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
+            gm.ProgressGain(0.01f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
         else //If the players aren't holding down space or their hands
         {

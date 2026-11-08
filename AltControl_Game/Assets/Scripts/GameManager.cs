@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class GameManager : MonoBehaviour
     public float currentLoveMeter;
 
     public Slider loveSlider;
+
+    public GameObject loseScreen; //TJ, the lose screen ui object is put here in da inspector
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,4 +46,15 @@ public class GameManager : MonoBehaviour
             currentLoveMeter = 0;
         }
     }
+
+    public void LoseGame() //TJ, sets the losescreen object to active when the player losers. Call this function when the player loses
+    {
+        loseScreen.SetActive(true);
+    }
+
+    public void RetryGame() //TJ, retry game function. to um... retry game hah
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }

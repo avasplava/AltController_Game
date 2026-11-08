@@ -92,7 +92,7 @@ public class TeacherStates : MonoBehaviour
                 if (Input.GetButton("Jump"))
                 {
                     Debug.Log("You've been caught!"); //Just to make sure it works
-                    gm.ProgressDecrease(20f);
+                    gm.LoseGame(); //TJ! calls losegame function in game manager script
                     teacherState = TEACHER_STATE.Safe;
                 }
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
