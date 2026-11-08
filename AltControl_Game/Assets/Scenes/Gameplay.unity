@@ -652,6 +652,8 @@ MonoBehaviour:
   playerOne: {fileID: 1695877732}
   playerTwo: {fileID: 1061116137}
   gm: {fileID: 1218314132}
+  playerOneWorking: 0
+  playerTwoWorking: 0
 --- !u!114 &1218314132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,6 +669,7 @@ MonoBehaviour:
   maxLoveMeter: 100
   currentLoveMeter: 0
   loveSlider: {fileID: 1979340702}
+  loseScreen: {fileID: 0}
 --- !u!1 &1233202978
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +775,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TeacherStates
   stateText: {fileID: 264907025}
+  teacherTime: 0
   gm: {fileID: 1218314132}
+  playerInput: {fileID: 1218314131}
   teacherState: 0
 --- !u!1 &1290285117
 GameObject:

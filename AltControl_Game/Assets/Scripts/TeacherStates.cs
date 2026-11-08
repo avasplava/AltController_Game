@@ -69,13 +69,13 @@ public class TeacherStates : MonoBehaviour
                 {
                     int stateChangeChance = Random.Range(1, 10);
 
-                    if (stateChangeChance <= 4)
+                    if (stateChangeChance <= 2)
                     {
                         Debug.Log("Change to Safe State");
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 5)
+                    if (stateChangeChance >= 3)
                     {
                         Debug.Log("Change to DANGER State");
                         teacherState = TEACHER_STATE.Danger;
