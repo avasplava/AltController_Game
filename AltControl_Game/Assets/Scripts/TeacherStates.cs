@@ -9,6 +9,8 @@ public class TeacherStates : MonoBehaviour
 
     public GameManager gm;
 
+    public PlayerInput playerInput; //TJ ! gets access to the PlayerInput script, so i can use the bools for each player working
+
     public enum TEACHER_STATE //Lets me design seperate states for the teacher, hopefully making it easier to playtest
     {
         Safe,
@@ -87,15 +89,22 @@ public class TeacherStates : MonoBehaviour
                 //Teacher sprite changes to Alert sprite
                 //The main important one to decide whether the player gets caught or not
                 //Was thinking that the player loses progress if they aren't seen working and if they are caught holding hands they lose the game?
-                if (!Input.GetButton("Jump"))
+                if (Input.GetButton("Jump"))
                 {
                     Debug.Log("You've been caught!"); //Just to make sure it works
                     gm.ProgressDecrease(20f);
                     teacherState = TEACHER_STATE.Safe;
                 }
+                else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
+                {
+                    //Debug.Log("Everyone is working. Safe"); // TJ! commented out cause fills up debug log
+                }
+                //if they arent kissing or working, lose progress
                 else
                 {
-
+                    Debug.Log("Someone isnt working");
+                    gm.ProgressDecrease(10f);
+                    teacherState = TEACHER_STATE.Safe;      
                 }
                 break;
         }
