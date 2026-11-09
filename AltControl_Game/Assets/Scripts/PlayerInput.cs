@@ -56,11 +56,11 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetButton("Jump")) //GetButton counts holds as well, GetButtonDown only detects a click if that makes sense
         {
-            gm.ProgressGain(0.1f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
+            gm.ProgressGain(0.02f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
         else //If the players aren't holding down space or their hands
         {
-            gm.ProgressDecrease(0.1f);
+            gm.ProgressDecrease(0.01f);
         }
     }
 }

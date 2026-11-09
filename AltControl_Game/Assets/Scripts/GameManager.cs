@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using JetBrains.Annotations;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class GameManager : MonoBehaviour
     public float currentLoveMeter;
 
     public Slider loveSlider;
+    public Slider clockSlider;
 
     public GameObject loseScreen; //TJ, the lose screen ui object is put here in da inspector
     public GameObject gameScene; //Ava :p, turns off the gameplay stuff to stop the player from interacting in the bg
@@ -23,6 +25,9 @@ public class GameManager : MonoBehaviour
         loveSlider.maxValue = maxLoveMeter;
         loveSlider.value = currentLoveMeter;
 
+        clockSlider.maxValue = gameTimer;
+        clockSlider.value = gameTimer;
+
         //gameTimer = 10; //testing testing, can be changed in inspector anyways
     }
 
@@ -30,7 +35,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         gameTimer -= Time.deltaTime;
-        gameTimerText.text = Mathf.Floor(gameTimer).ToString(); //Changed the timer text to show the lowest possible number (So it shows 5 instead of 5.436436 for example)
+        clockSlider.value = gameTimer;
 
         if(gameTimer <= 0)
         {
