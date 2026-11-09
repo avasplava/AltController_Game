@@ -54,11 +54,13 @@ public class PlayerInput : MonoBehaviour
         if (playerTwoWorking)
         {
             //Player Two Writing Sprite
+            playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[4];
             playerTwoWorkText.text = ("Player Two working!!!");
         }
         else
         {
             //Back to Idle Sprite
+            playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
             playerTwoWorkText.text = ("Player Two not working...");
         }
 
@@ -70,9 +72,11 @@ public class PlayerInput : MonoBehaviour
             //Change Both Players to Kissing/Hand Holding Sprite
             gm.ProgressGain(0.09f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
-        else //If the players aren't holding down space or their hands
+        else if (!Input.GetButton("Jump"))//If the players aren't holding down space or their hands
         {
             //Back to idle sprites
+            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            //playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
             gm.ProgressDecrease(0.05f);
         }
     }

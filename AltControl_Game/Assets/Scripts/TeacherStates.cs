@@ -42,15 +42,15 @@ public class TeacherStates : MonoBehaviour
                 {
                     Debug.Log("Timer hit 5 seconds, teacher going into Sus mode maybe idk bruh");
                     //RANDOM THINGY HERE GAH
-                    int stateChangeChance = Random.Range(1, 10);
+                    int stateChangeChance = Random.Range(1, 5);
 
-                    if (stateChangeChance <= 4)
+                    if (stateChangeChance <= 2)
                     {
                         Debug.Log("Change to Safe State");
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 5)
+                    if (stateChangeChance >= 3)
                     {
                         Debug.Log("Change to Sus State");
                         teacherState = TEACHER_STATE.Sus;
@@ -65,7 +65,7 @@ public class TeacherStates : MonoBehaviour
                 //This can be used to pysch the players out hehe
                 //Can make the script decided whether the teacher switches back to Safe state or go into Alert state
 
-                if (teacherTime >= 5f) //Change this to be between like 2 to five seconds randomly
+                if (teacherTime >= 3f) //Change this to be between like 2 to five seconds randomly
                 {
                     int stateChangeChance = Random.Range(1, 10);
 
@@ -88,9 +88,9 @@ public class TeacherStates : MonoBehaviour
                 stateText.text = ("State: Danger!");
                 //Teacher sprite changes to Alert sprite
                 //The main important one to decide whether the player gets caught or not
-                //Was thinking that the player loses progress if they aren't seen working and if they are caught holding hands they lose the game?
                 if (Input.GetButton("Jump"))
                 {
+                    //Change player sprites to the Caught Ones!
                     Debug.Log("You've been caught!"); //Just to make sure it works
                     gm.LoseGame(); //TJ! calls losegame function in game manager script
                     teacherState = TEACHER_STATE.Safe;
@@ -98,6 +98,11 @@ public class TeacherStates : MonoBehaviour
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {
                     //Debug.Log("Everyone is working. Safe"); // TJ! commented out cause fills up debug log
+                    if (teacherTime >= 3f)
+                    {
+                        teacherState = TEACHER_STATE.Safe;
+                        teacherTime = 0f;
+                    }
                 }
                 //if they arent kissing or working, lose progress
                 else
