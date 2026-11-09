@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,18 +12,24 @@ public class GameManager : MonoBehaviour
 
     public GameObject loseScreen; //TJ, the lose screen ui object is put here in da inspector
 
+    public float gameTimer; //it the game timer!
+    public TMP_Text gameTimerText;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentLoveMeter = 0;
         loveSlider.maxValue = maxLoveMeter;
         loveSlider.value = currentLoveMeter;
+
+        gameTimer = 10; //testing testing, can be changed in inspector anyways
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        gameTimer += Time.deltaTime;
+        gameTimerText.text = Mathf.Floor(gameTimer).ToString(); //Changed the timer text to show the lowest possible number (So it shows 5 instead of 5.436436 for example)
     }
 
     public void ProgressGain (float amount)
