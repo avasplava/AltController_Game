@@ -972,6 +972,7 @@ MonoBehaviour:
   currentLoveMeter: 0
   loveSlider: {fileID: 1979340702}
   loseScreen: {fileID: 445243854}
+  gameScene: {fileID: 1778901471}
   gameTimer: 0
   gameTimerText: {fileID: 1420707812}
 --- !u!1 &1233202978

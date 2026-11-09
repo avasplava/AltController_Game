@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Slider loveSlider;
 
     public GameObject loseScreen; //TJ, the lose screen ui object is put here in da inspector
+    public GameObject gameScene; //Ava :p, turns off the gameplay stuff to stop the player from interacting in the bg
 
     public float gameTimer; //it the game timer!
     public TMP_Text gameTimerText;
@@ -57,6 +58,7 @@ public class GameManager : MonoBehaviour
     public void LoseGame() //TJ, sets the losescreen object to active when the player losers. Call this function when the player loses
     {
         loseScreen.SetActive(true);
+        gameScene.SetActive(false);
     }
 
     public void RetryGame() //TJ, retry game function. to um... retry game hah
