@@ -4,6 +4,8 @@ using UnityEngine.UI;
 
 public class PlayerInput : MonoBehaviour
 {
+    public Sprite[] spriteList; //Used to store all of the different player sprites for ease of use!
+
     public GameObject playerOne;
     public GameObject playerTwo;
 
@@ -20,6 +22,9 @@ public class PlayerInput : MonoBehaviour
 
     void Start()
     {
+        playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0]; //These will ensure that the players sprites are defaulted to Idle at the start of the scene
+        playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
+
         playerOneWorkText.text = ("Player One not working...");
         playerTwoWorkText.text = ("Player Two not working...");
     }
@@ -35,19 +40,25 @@ public class PlayerInput : MonoBehaviour
         //This is just to show if the players are pressing the buttons for playtesting?!
         if (playerOneWorking)
         {
+            //Player One Writing Sprite
+            playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[1];
             playerOneWorkText.text = ("Player One working!!!");
         }
         else
         {
+            //Back to Idle Sprite
+            playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
             playerOneWorkText.text = ("Player One not working...");
         }
 
         if (playerTwoWorking)
         {
+            //Player Two Writing Sprite
             playerTwoWorkText.text = ("Player Two working!!!");
         }
         else
         {
+            //Back to Idle Sprite
             playerTwoWorkText.text = ("Player Two not working...");
         }
 
@@ -56,11 +67,13 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetButton("Jump")) //GetButton counts holds as well, GetButtonDown only detects a click if that makes sense
         {
-            gm.ProgressGain(0.02f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
+            //Change Both Players to Kissing/Hand Holding Sprite
+            gm.ProgressGain(0.09f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
         else //If the players aren't holding down space or their hands
         {
-            gm.ProgressDecrease(0.01f);
+            //Back to idle sprites
+            gm.ProgressDecrease(0.05f);
         }
     }
 }
