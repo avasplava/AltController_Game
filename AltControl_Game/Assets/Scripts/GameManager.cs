@@ -23,14 +23,19 @@ public class GameManager : MonoBehaviour
         loveSlider.maxValue = maxLoveMeter;
         loveSlider.value = currentLoveMeter;
 
-        gameTimer = 10; //testing testing, can be changed in inspector anyways
+        //gameTimer = 10; //testing testing, can be changed in inspector anyways
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameTimer += Time.deltaTime;
+        gameTimer -= Time.deltaTime;
         gameTimerText.text = Mathf.Floor(gameTimer).ToString(); //Changed the timer text to show the lowest possible number (So it shows 5 instead of 5.436436 for example)
+
+        if(gameTimer <= 0)
+        {
+            LoseGame();
+        }
     }
 
     public void ProgressGain (float amount)
