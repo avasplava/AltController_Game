@@ -88,7 +88,7 @@ public class TeacherStates : MonoBehaviour
                 stateText.text = ("State: Danger!");
                 //Teacher sprite changes to Alert sprite
                 //The main important one to decide whether the player gets caught or not
-                if (Input.GetButton("Jump"))
+                if (Input.GetButton("Jump")) //If players are holding hands
                 {
                     //Change player sprites to the Caught Ones!
                     Debug.Log("You've been caught!"); //Just to make sure it works

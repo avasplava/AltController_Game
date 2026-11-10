@@ -72,11 +72,11 @@ public class PlayerInput : MonoBehaviour
             //Change Both Players to Kissing/Hand Holding Sprite
             gm.ProgressGain(0.09f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
-        else if (!Input.GetButton("Jump"))//If the players aren't holding down space or their hands
+        else if (!Input.GetButton("Jump") && !playerOneWorking && !playerTwoWorking)//If the players aren't holding down space or their hands AND not working
         {
             //Back to idle sprites
-            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
-            //playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
+            playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
             gm.ProgressDecrease(0.05f);
         }
     }
