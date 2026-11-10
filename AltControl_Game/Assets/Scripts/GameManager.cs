@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public Slider clockSlider;
 
     public GameObject loseScreen; //TJ, the lose screen ui object is put here in da inspector
+    public GameObject winScreen;
     public GameObject gameScene; //Ava :p, turns off the gameplay stuff to stop the player from interacting in the bg
 
     public float gameTimer; //it the game timer!
@@ -40,6 +41,11 @@ public class GameManager : MonoBehaviour
         if(gameTimer <= 0)
         {
             LoseGame();
+        }
+
+        if (currentLoveMeter >= maxLoveMeter)
+        {
+            FullLoveBar();
         }
     }
 
@@ -74,6 +80,12 @@ public class GameManager : MonoBehaviour
     public void RetryGame() //TJ, retry game function. to um... retry game hah
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void FullLoveBar() //Triggers when the bar is FULL of (unlimited) love
+    {
+        winScreen.SetActive(true);
+        gameScene.SetActive(false);
     }
 
 }
