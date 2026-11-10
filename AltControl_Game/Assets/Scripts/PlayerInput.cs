@@ -75,8 +75,8 @@ public class PlayerInput : MonoBehaviour
         else if (!Input.GetButton("Jump"))//If the players aren't holding down space or their hands AND not working
         {
             //Back to idle sprites
-            playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
-            playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
+            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            //playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
             gm.ProgressDecrease(0.05f);
         }
     }
