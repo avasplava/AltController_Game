@@ -1582,12 +1582,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 7b0aae62f38670e4bb1c38efe0da74f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ac30e42d3b759e2429d5a86d2e2cf428, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10.8, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1792,9 +1792,10 @@ MonoBehaviour:
   spriteList:
   - {fileID: 21300000, guid: 08f0f625549a71d4e8623874c3537896, type: 3}
   - {fileID: 21300000, guid: 9f641083e0780404b86b098611e5e7e8, type: 3}
-  - {fileID: 21300000, guid: 8d60ea52b99fb744aacb686160137b5f, type: 3}
-  - {fileID: 21300000, guid: 7b0aae62f38670e4bb1c38efe0da74f2, type: 3}
-  - {fileID: 21300000, guid: 058c27e546ef42d4aa117bb0d1c071ac, type: 3}
+  - {fileID: 21300000, guid: 1f92ccdedfaf2d54ebff5630f54f21b3, type: 3}
+  - {fileID: 21300000, guid: ac30e42d3b759e2429d5a86d2e2cf428, type: 3}
+  - {fileID: 21300000, guid: 80bf283e036b74c41b089abb0754198b, type: 3}
+  - {fileID: 21300000, guid: eb7a5df44fae8624395b9c0ec52a4bc2, type: 3}
   playerOne: {fileID: 1695877732}
   playerTwo: {fileID: 1061116137}
   gm: {fileID: 1218314132}
@@ -1814,6 +1815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89840ece6060c294ca0dfca3b37592bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  player: {fileID: 1218314131}
   maxLoveMeter: 100
   currentLoveMeter: 0
   loveSlider: {fileID: 1979340702}
@@ -1822,7 +1824,6 @@ MonoBehaviour:
   winScreen: {fileID: 1227266331}
   gameScene: {fileID: 1778901471}
   gameTimer: 10
-  gameTimerText: {fileID: 1420707812}
   minuteHand: {fileID: 1752894230}
 --- !u!1 &1227266331
 GameObject:
