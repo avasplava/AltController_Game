@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 8d60ea52b99fb744aacb686160137b5f
+guid: eb7a5df44fae8624395b9c0ec52a4bc2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 389677058527461216
-    second: GirlCaught_0
+      213: -1871920307225088258
+    second: boyCaught_0
+  - first:
+      213: 33714672913481441
+    second: boyCaught_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GirlCaught_0
+      name: boyCaught_0
       rect:
         serializedVersion: 2
-        x: 282
-        y: 126
-        width: 514
-        height: 851
+        x: 417
+        y: 857
+        width: 167
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06ff5aa5839686500800000000000000
-      internalID: 389677058527461216
+      spriteID: efe2200066a9506e0800000000000000
+      internalID: -1871920307225088258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boyCaught_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 23
+        width: 325
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eef9bef057c77000800000000000000
+      internalID: 33714672913481441
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GirlCaught_0: 389677058527461216
+      boyCaught_0: -1871920307225088258
+      boyCaught_1: 33714672913481441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

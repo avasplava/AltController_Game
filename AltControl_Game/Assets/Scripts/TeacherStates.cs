@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Threading;
 using TMPro;
 using UnityEngine;
@@ -92,8 +93,8 @@ public class TeacherStates : MonoBehaviour
                 {
                     //Change player sprites to the Caught Ones!
                     Debug.Log("You've been caught!"); //Just to make sure it works
+
                     gm.LoseGame(); //TJ! calls losegame function in game manager script
-                    teacherState = TEACHER_STATE.Safe;
                 }
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {

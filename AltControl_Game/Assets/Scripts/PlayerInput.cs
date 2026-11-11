@@ -70,14 +70,14 @@ public class PlayerInput : MonoBehaviour
         if (Input.GetButton("Jump")) //GetButton counts holds as well, GetButtonDown only detects a click if that makes sense
         {
             //Change Both Players to Kissing/Hand Holding Sprite
-            gm.ProgressGain(0.09f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
+            gm.ProgressGain(0.05f); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
         else if (!Input.GetButton("Jump"))//If the players aren't holding down space or their hands AND not working
         {
             //Back to idle sprites
-            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];
+            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];  THIS WONT WORK GARGH
             //playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
-            gm.ProgressDecrease(0.05f);
+            gm.ProgressDecrease(0.03f);
         }
     }
 }

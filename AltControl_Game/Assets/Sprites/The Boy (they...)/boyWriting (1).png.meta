@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 058c27e546ef42d4aa117bb0d1c071ac
+guid: 80bf283e036b74c41b089abb0754198b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1462104108450719559
-    second: boyWriting_0
+      213: 5092060791177047219
+    second: boyWriting (1)_0
   - first:
-      213: -366079914994351727
-    second: boyWriting_1
+      213: 1286877471831046251
+    second: boyWriting (1)_1
   - first:
-      213: -5483297196842288178
-    second: boyWriting_2
+      213: -3999104292083701197
+    second: boyWriting (1)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,7 +119,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boyWriting_0
+      name: boyWriting (1)_0
       rect:
         serializedVersion: 2
         x: 246
@@ -134,14 +134,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b8d7275f0095bbe0800000000000000
-      internalID: -1462104108450719559
+      spriteID: 3bc6dc88f42aaa640800000000000000
+      internalID: 5092060791177047219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boyWriting_1
+      name: boyWriting (1)_1
       rect:
         serializedVersion: 2
         x: 258
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1914b53c14c6beaf0800000000000000
-      internalID: -366079914994351727
+      spriteID: b6831f11e38ebd110800000000000000
+      internalID: 1286877471831046251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boyWriting_2
+      name: boyWriting (1)_2
       rect:
         serializedVersion: 2
         x: 282
         y: 145
-        width: 519
-        height: 922
+        width: 510
+        height: 915
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecbf150504a67e3b0800000000000000
-      internalID: -5483297196842288178
+      spriteID: 33a6c92a5d35088c0800000000000000
+      internalID: -3999104292083701197
       vertices: []
       indices: 
       edges: []
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boyWriting_0: -1462104108450719559
-      boyWriting_1: -366079914994351727
-      boyWriting_2: -5483297196842288178
+      boyWriting (1)_0: 5092060791177047219
+      boyWriting (1)_1: 1286877471831046251
+      boyWriting (1)_2: -3999104292083701197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

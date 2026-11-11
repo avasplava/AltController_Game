@@ -3,9 +3,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 using JetBrains.Annotations;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
+    public PlayerInput player;
+
     public float maxLoveMeter; //The maximum/goal amount of the progress meter
     public float currentLoveMeter;
 
@@ -17,7 +20,6 @@ public class GameManager : MonoBehaviour
     public GameObject gameScene; //Ava :p, turns off the gameplay stuff to stop the player from interacting in the bg
 
     public float gameTimer; //it the game timer!
-    public TMP_Text gameTimerText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -73,8 +75,13 @@ public class GameManager : MonoBehaviour
 
     public void LoseGame() //TJ, sets the losescreen object to active when the player losers. Call this function when the player loses
     {
+        player.playerOne.GetComponent<SpriteRenderer>().sprite = player.spriteList[2];
+        player.playerTwo.GetComponent<SpriteRenderer>().sprite = player.spriteList[5];
+
+        
+
         loseScreen.SetActive(true);
-        gameScene.SetActive(false);
+        //gameScene.SetActive(false);
     }
 
     public void RetryGame() //TJ, retry game function. to um... retry game hah
@@ -82,7 +89,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    public void FullLoveBar() //Triggers when the bar is FULL of (unlimited) love
+    public void FullLoveBar() //Triggers when the bar is FULL of love
     {
         winScreen.SetActive(true);
         gameScene.SetActive(false);
