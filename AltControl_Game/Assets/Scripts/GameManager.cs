@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
 
     public float gameTimer; //it the game timer!
 
+    public RectTransform minuteHand; // TJ, where u drag the clock hang image in the insepctor
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,6 +41,11 @@ public class GameManager : MonoBehaviour
     {
         gameTimer -= Time.deltaTime;
         clockSlider.value = gameTimer;
+
+        //TJ, rotating clock hand .... ahhh
+        float progress = gameTimer / clockSlider.maxValue; // TJ, divides "time left" with the orignal starting time, to get a number value of how far along the clock is.
+        float angle = (1f - progress) * 360f; // TJ, gets the angle of the clock hand based on the progress of the timer.
+        minuteHand.eulerAngles = new Vector3(0, 0, -angle); // TJ, applys the rotation to the clock hand.
 
         if(gameTimer <= 0)
         {
