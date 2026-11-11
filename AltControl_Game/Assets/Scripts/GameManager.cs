@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
         gameScene.SetActive(false);
     }
 
-    public void RetryGame() //TJ, retry game function. to um... retry game hah
+    public void RestartGame() //TJ, retry game function. to um... retry game hah
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
