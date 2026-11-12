@@ -7,6 +7,9 @@ public class TeacherStates : MonoBehaviour
     public TMP_Text stateText;
     public float teacherTime;
 
+    public SpriteRenderer teacherSprite;
+    public Sprite[] teacherSprites; //0 = writing on board, 1 = sus , 2 Danger , 3 = Angry
+
     public GameManager gm;
 
     public PlayerInput playerInput; //TJ ! gets access to the PlayerInput script, so i can use the bools for each player working
@@ -36,7 +39,8 @@ public class TeacherStates : MonoBehaviour
         {
             case TEACHER_STATE.Safe:
                 stateText.text = ("State: Safe");
-                //Teacher sprite is normal teaching sprite
+                teacherSprite.sprite = teacherSprites[0];
+                 //Teacher sprite is normal teaching sprite
                 //Every 5 seconds? make the teacher choose wheter or not to go into the Sus state
                 if (teacherTime >= 5f)
                 {
@@ -61,6 +65,7 @@ public class TeacherStates : MonoBehaviour
 
             case TEACHER_STATE.Sus:
                 stateText.text = ("State: Sus");
+                teacherSprite.sprite = teacherSprites[1];
                 //Teacher sprite changes to the suspicious sprite gasp
                 //This can be used to pysch the players out hehe
                 //Can make the script decided whether the teacher switches back to Safe state or go into Alert state
@@ -86,6 +91,7 @@ public class TeacherStates : MonoBehaviour
 
             case TEACHER_STATE.Danger:
                 stateText.text = ("State: Danger!");
+                teacherSprite.sprite = teacherSprites[2];
                 //Teacher sprite changes to Alert sprite
                 //The main important one to decide whether the player gets caught or not
                 if (Input.GetButton("Jump")) //If players are holding hands
