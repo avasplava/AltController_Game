@@ -2314,7 +2314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &727993525
 Transform:
   m_ObjectHideFlags: 0
@@ -2568,8 +2568,8 @@ Transform:
   m_GameObject: {fileID: 992495116}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -39.308655, y: 314.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -271, y: 388, z: 0}
+  m_LocalScale: {x: 0.66409, y: 0.66409, z: 0.66409}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 359518594}
@@ -3521,7 +3521,7 @@ MonoBehaviour:
   loseScreen: {fileID: 445243854}
   winScreen: {fileID: 1227266331}
   gameScene: {fileID: 1778901471}
-  gameTimer: 10
+  gameTimer: 60
   minuteHand: {fileID: 1752894230}
 --- !u!1 &1227266331
 GameObject:
@@ -3641,8 +3641,8 @@ Transform:
   m_GameObject: {fileID: 1233202978}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.88, y: 1.54, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalPosition: {x: 0.81, y: 1.54, z: 0}
+  m_LocalScale: {x: 0.27083102, y: 0.27083102, z: 0.27083102}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1778901472}
@@ -3839,7 +3839,7 @@ RectTransform:
   m_Father: {fileID: 141634372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5060,7 +5060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1778901472
 Transform:
   m_ObjectHideFlags: 0
@@ -5997,8 +5997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -51, y: 438}
-  m_SizeDelta: {x: 277.3093, y: 42.6144}
+  m_AnchoredPosition: {x: -35, y: 442}
+  m_SizeDelta: {x: 277.30933, y: 42.6144}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979340702
 MonoBehaviour:
