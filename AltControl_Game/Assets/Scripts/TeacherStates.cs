@@ -7,6 +7,7 @@ public class TeacherStates : MonoBehaviour
 {
     public TMP_Text stateText;
     public float teacherTime;
+    public float teacherProgressDecrease;
 
     public SpriteRenderer teacherSprite;
     public Sprite[] teacherSprites; //0 = writing on board, 1 = sus , 2 Danger , 3 = Angry
@@ -115,7 +116,9 @@ public class TeacherStates : MonoBehaviour
                 else
                 {
                     Debug.Log("Someone isnt working");
-                    gm.ProgressDecrease(10f);
+                    gm.currentLoveMeter -= teacherProgressDecrease;
+                    gm.loveSlider.value = gm.currentLoveMeter;
+                    //gm.ProgressDecrease();
                     teacherState = TEACHER_STATE.Safe;      
                 }
                 break;

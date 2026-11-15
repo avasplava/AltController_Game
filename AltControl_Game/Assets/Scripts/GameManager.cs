@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     public float maxLoveMeter; //The maximum/goal amount of the progress meter
     public float currentLoveMeter;
+    public float progressGain;
+    public float progressLoss;
 
     public Slider loveSlider;
     public Slider clockSlider;
@@ -58,9 +60,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ProgressGain (float amount)
+    public void ProgressGain ()
     {
-        currentLoveMeter += amount;
+        currentLoveMeter += progressGain;
         loveSlider.value = currentLoveMeter;
 
         if (currentLoveMeter >= maxLoveMeter)
@@ -69,9 +71,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void ProgressDecrease(float amount)
+    public void ProgressDecrease()
     {
-        currentLoveMeter -= amount;
+        currentLoveMeter -= progressLoss;
         loveSlider.value = currentLoveMeter;
 
         if (currentLoveMeter <= 0)

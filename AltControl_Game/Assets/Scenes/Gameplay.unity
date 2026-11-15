@@ -3516,6 +3516,8 @@ MonoBehaviour:
   player: {fileID: 1218314131}
   maxLoveMeter: 100
   currentLoveMeter: 0
+  progressGain: 0.1
+  progressLoss: 0.05
   loveSlider: {fileID: 1979340702}
   clockSlider: {fileID: 2107543442}
   loseScreen: {fileID: 445243854}
@@ -3661,6 +3663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TeacherStates
   stateText: {fileID: 264907025}
   teacherTime: 0
+  teacherProgressDecrease: 10
   teacherSprite: {fileID: 1233202979}
   teacherSprites:
   - {fileID: 21300000, guid: fbf4422784a33d142807916fc73a214f, type: 3}
