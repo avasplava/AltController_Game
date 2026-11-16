@@ -50,12 +50,12 @@ public class MenuManager : MonoBehaviour
 
             if (playerTwoWorking)
             {
-                playerTwo.sprite = spriteList[4];
+                playerTwo.sprite = spriteList[3];
                 playerTwoWorkText.text = ("Player Two working!!!");
             }
             else
             {
-                playerTwo.sprite = spriteList[3];
+                playerTwo.sprite = spriteList[2];
                 playerTwoWorkText.text = ("Player Two not working...");
             }
 

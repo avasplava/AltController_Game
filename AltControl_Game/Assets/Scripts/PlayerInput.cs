@@ -8,8 +8,12 @@ public class PlayerInput : MonoBehaviour
 
     public GameObject playerOne;
     public GameObject playerTwo;
+    public Sprite[] kissingFrames;
 
     public GameObject kissingSprite;
+    private float animationTimer = 0f;
+    private int currentFrame = 0;
+    public float frameDuration = 1f;
 
     public GameManager gm; //gets access to the GameManager script, so i can use the ProgressGain function here AS LONG AS THE FUNCTION IS PUBLIC!!!
 
@@ -75,7 +79,16 @@ public class PlayerInput : MonoBehaviour
             playerTwo.SetActive(false);
 
             kissingSprite.SetActive(true);
-            //Change Both Players to Kissing/Hand Holding Sprite
+
+            animationTimer += Time.deltaTime;
+
+            if (animationTimer >= frameDuration)
+            {
+                animationTimer = 0f;
+                currentFrame = (currentFrame + 1) % kissingFrames.Length;
+            }
+
+            kissingSprite.GetComponent<SpriteRenderer>().sprite = kissingFrames[currentFrame];
             gm.ProgressGain(); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
         else
@@ -84,6 +97,9 @@ public class PlayerInput : MonoBehaviour
             playerTwo.SetActive(true);
 
             kissingSprite.SetActive(false);
+
+            animationTimer = 0f;
+            currentFrame = 0;
             gm.ProgressDecrease();
         }
     }
