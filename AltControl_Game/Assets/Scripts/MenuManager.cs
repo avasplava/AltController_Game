@@ -79,6 +79,15 @@ public class MenuManager : MonoBehaviour
         
         tutorialScreen.SetActive(false);
         gameScene.SetActive(true);
+    }
+
+        public void RestartGame()
+    {
+        gm.winScreen.SetActive(false);
+        gm.loseScreen.SetActive(false);
+        
+        tutorialScreen.SetActive(false);
+        gameScene.SetActive(true);
 
         gm.ResetGame();
     }

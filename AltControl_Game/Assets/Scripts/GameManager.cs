@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     public GameObject winScreen;
     public GameObject gameScene; //Ava :p, turns off the gameplay stuff to stop the player from interacting in the bg
 
-    public float gameTimer; //it the game timer!
+    public float gameTimer = 60f; //it the game timer!
 
     public RectTransform minuteHand; // TJ, where u drag the clock hang image in the insepctor
 
