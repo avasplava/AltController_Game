@@ -61,7 +61,9 @@ public class MenuManager : MonoBehaviour
 
             if (playerOneWorking && playerTwoWorking)
             {
-                ContinueToGame();
+
+                RestartGame();
+                //ContinueToGame();
             }
         }      
     }

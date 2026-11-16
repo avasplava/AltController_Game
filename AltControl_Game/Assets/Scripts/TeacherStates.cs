@@ -78,7 +78,7 @@ public class TeacherStates : MonoBehaviour
                 //This can be used to pysch the players out hehe
                 //Can make the script decide whether the teacher switches back to Safe state or go into Danger state
 
-                float teacherTimeChange = Random.Range(1f, 3f); //picks out a random time for the teacher to stay in this state for
+                float teacherTimeChange = Random.Range(1.2f, 3f); //picks out a random time for the teacher to stay in this state for
                 Debug.Log("New teacher time: " + teacherTimeChange);
                 if (teacherTime >= teacherTimeChange)
                 {
@@ -90,7 +90,7 @@ public class TeacherStates : MonoBehaviour
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 2)
+                    if (stateChangeChance >= 3)
                     {
                         Debug.Log("Change to DANGER State");
                         teacherState = TEACHER_STATE.Danger;
@@ -113,7 +113,7 @@ public class TeacherStates : MonoBehaviour
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {
                     //Debug.Log("Everyone is working. Safe"); // TJ! commented out cause fills up debug log
-                    if (teacherTime >= 2f)
+                    if (teacherTime >= 1.8f)
                     {
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
