@@ -9,6 +9,8 @@ public class PlayerInput : MonoBehaviour
     public GameObject playerOne;
     public GameObject playerTwo;
 
+    public GameObject kissingSprite;
+
     public GameManager gm; //gets access to the GameManager script, so i can use the ProgressGain function here AS LONG AS THE FUNCTION IS PUBLIC!!!
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -69,14 +71,19 @@ public class PlayerInput : MonoBehaviour
 
         if (Input.GetButton("Jump")) //GetButton counts holds as well, GetButtonDown only detects a click if that makes sense
         {
+            playerOne.SetActive(false);
+            playerTwo.SetActive(false);
+
+            kissingSprite.SetActive(true);
             //Change Both Players to Kissing/Hand Holding Sprite
             gm.ProgressGain(); //the number just chooses how much the progress goes up each frame, can possibly slow this down with further coding
         }
-        else if (!Input.GetButton("Jump"))//If the players aren't holding down space or their hands AND not working
+        else
         {
-            //Back to idle sprites
-            //playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0];  THIS WONT WORK GARGH
-            //playerTwo.GetComponent<SpriteRenderer>().sprite = spriteList[3];
+            playerOne.SetActive(true);
+            playerTwo.SetActive(true);
+
+            kissingSprite.SetActive(false);
             gm.ProgressDecrease();
         }
     }

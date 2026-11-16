@@ -1,0 +1,1391 @@
+fileFormatVersion: 2
+guid: a2c72e6bb46ee7c4691ecc3a7eb6da7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8807603980980523913
+    second: GlorpentinesLogoTransparent_0
+  - first:
+      213: 8871048268760292259
+    second: GlorpentinesLogoTransparent_1
+  - first:
+      213: -655476716449511362
+    second: GlorpentinesLogoTransparent_2
+  - first:
+      213: -5720721429546623783
+    second: GlorpentinesLogoTransparent_3
+  - first:
+      213: -548226218907085203
+    second: GlorpentinesLogoTransparent_4
+  - first:
+      213: 5187220430357897926
+    second: GlorpentinesLogoTransparent_5
+  - first:
+      213: -7944325305404329491
+    second: GlorpentinesLogoTransparent_6
+  - first:
+      213: 3975706819211385289
+    second: GlorpentinesLogoTransparent_7
+  - first:
+      213: -4812019388410004590
+    second: GlorpentinesLogoTransparent_8
+  - first:
+      213: -8091209278818134108
+    second: GlorpentinesLogoTransparent_9
+  - first:
+      213: 1714186155450317167
+    second: GlorpentinesLogoTransparent_10
+  - first:
+      213: 4345582161271342820
+    second: GlorpentinesLogoTransparent_11
+  - first:
+      213: 6212444242147049075
+    second: GlorpentinesLogoTransparent_12
+  - first:
+      213: 5382790933141228617
+    second: GlorpentinesLogoTransparent_13
+  - first:
+      213: -5022352582004544163
+    second: GlorpentinesLogoTransparent_14
+  - first:
+      213: -7965861632673089092
+    second: GlorpentinesLogoTransparent_15
+  - first:
+      213: -9191114310337610693
+    second: GlorpentinesLogoTransparent_16
+  - first:
+      213: -4578088426139498747
+    second: GlorpentinesLogoTransparent_17
+  - first:
+      213: 7804241947177176764
+    second: GlorpentinesLogoTransparent_18
+  - first:
+      213: -7266467899740837825
+    second: GlorpentinesLogoTransparent_19
+  - first:
+      213: -4348404222568567943
+    second: GlorpentinesLogoTransparent_20
+  - first:
+      213: 3434990999164429101
+    second: GlorpentinesLogoTransparent_21
+  - first:
+      213: 4745441191844992707
+    second: GlorpentinesLogoTransparent_22
+  - first:
+      213: 155724339568339524
+    second: GlorpentinesLogoTransparent_23
+  - first:
+      213: 7127355422865421471
+    second: GlorpentinesLogoTransparent_24
+  - first:
+      213: -3070873880540727718
+    second: GlorpentinesLogoTransparent_25
+  - first:
+      213: -8366436066857958222
+    second: GlorpentinesLogoTransparent_26
+  - first:
+      213: -649815592914340681
+    second: GlorpentinesLogoTransparent_27
+  - first:
+      213: 2532033766518775685
+    second: GlorpentinesLogoTransparent_28
+  - first:
+      213: -2214169730905239350
+    second: GlorpentinesLogoTransparent_29
+  - first:
+      213: -7779793378915818460
+    second: GlorpentinesLogoTransparent_30
+  - first:
+      213: 3650314159847212864
+    second: GlorpentinesLogoTransparent_31
+  - first:
+      213: 5916808443536571302
+    second: GlorpentinesLogoTransparent_32
+  - first:
+      213: -2256151642500621181
+    second: GlorpentinesLogoTransparent_33
+  - first:
+      213: -8482187299390866722
+    second: GlorpentinesLogoTransparent_34
+  - first:
+      213: -8878114504795287735
+    second: GlorpentinesLogoTransparent_35
+  - first:
+      213: -7919025616144074711
+    second: GlorpentinesLogoTransparent_36
+  - first:
+      213: 239759178740274642
+    second: GlorpentinesLogoTransparent_37
+  - first:
+      213: -521119380050762010
+    second: GlorpentinesLogoTransparent_38
+  - first:
+      213: 3980076315631816488
+    second: GlorpentinesLogoTransparent_39
+  - first:
+      213: -480004479874324554
+    second: GlorpentinesLogoTransparent_40
+  - first:
+      213: -4623767098588172588
+    second: GlorpentinesLogoTransparent_41
+  - first:
+      213: 1117684929452068988
+    second: GlorpentinesLogoTransparent_42
+  - first:
+      213: -928145513890525754
+    second: GlorpentinesLogoTransparent_43
+  - first:
+      213: 2901041357567444797
+    second: GlorpentinesLogoTransparent_44
+  - first:
+      213: 4696450696635229619
+    second: GlorpentinesLogoTransparent_45
+  - first:
+      213: -5116558869358756668
+    second: GlorpentinesLogoTransparent_46
+  - first:
+      213: 3235067207495973184
+    second: GlorpentinesLogoTransparent_47
+  - first:
+      213: -1484516825675220540
+    second: GlorpentinesLogoTransparent_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 310
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98319a0f725ea3a70800000000000000
+      internalID: 8807603980980523913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 309
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab1dcc466b4c1b70800000000000000
+      internalID: 8871048268760292259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 311
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38cc75366747e6f0800000000000000
+      internalID: -655476716449511362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 292
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc98e46b2aeb90b0800000000000000
+      internalID: -5720721429546623783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 295
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66dc75982f4468f0800000000000000
+      internalID: -548226218907085203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 291
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2a1239f75bcf740800000000000000
+      internalID: 5187220430357897926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 289
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de17a3fb93610c190800000000000000
+      internalID: -7944325305404329491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_7
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 294
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c95132b94c8c2730800000000000000
+      internalID: 3975706819211385289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 289
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b77858cd5483db0800000000000000
+      internalID: -4812019388410004590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 214
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a753bca70046bf80800000000000000
+      internalID: -8091209278818134108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 210
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69328ae9330ac710800000000000000
+      internalID: 1714186155450317167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 215
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e64ad8a3fb9e4c30800000000000000
+      internalID: 4345582161271342820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_12
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 212
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e78109f19073650800000000000000
+      internalID: 6212444242147049075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 210
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c831e95d383ba40800000000000000
+      internalID: 5382790933141228617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_14
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 216
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d6adcafe40d4ab0800000000000000
+      internalID: -5022352582004544163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 215
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb97b9ecc03937190800000000000000
+      internalID: -7965861632673089092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_16
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 210
+        width: 61
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c315a3b3a927080800000000000000
+      internalID: -9191114310337610693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_17
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 166
+        width: 121
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c0a905dc5770c0800000000000000
+      internalID: -4578088426139498747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_18
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 162
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbec2bac3bc3e4c60800000000000000
+      internalID: 7804241947177176764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 160
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f382b20d1f1582b90800000000000000
+      internalID: -7266467899740837825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_20
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 163
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bedfdf56d57a3c0800000000000000
+      internalID: -4348404222568567943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 160
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d232cd74d1a8baf20800000000000000
+      internalID: 3434990999164429101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_22
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 152
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c65d6e1f913bd140800000000000000
+      internalID: 4745441191844992707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_23
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 166
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a6ad6367e392200800000000000000
+      internalID: 155724339568339524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_24
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 164
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94f8d7aef379e260800000000000000
+      internalID: 7127355422865421471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_25
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 167
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a563850d9701265d0800000000000000
+      internalID: -3070873880540727718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_26
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 164
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b44ae679b274eb80800000000000000
+      internalID: -8366436066857958222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_27
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 119
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4b4de39246bf6f0800000000000000
+      internalID: -649815592914340681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_28
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f55ac9b47932320800000000000000
+      internalID: 2532033766518775685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_29
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 119
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac098f46c50b541e0800000000000000
+      internalID: -2214169730905239350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_30
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 117
+        width: 82
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42469c7142f980490800000000000000
+      internalID: -7779793378915818460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_31
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 118
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0478540636588a230800000000000000
+      internalID: 3650314159847212864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 126
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab77094ee9bc1250800000000000000
+      internalID: 5916808443536571302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 126
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c1655e80a80b0e0800000000000000
+      internalID: -2256151642500621181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_34
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 57
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda3a7d7797394a80800000000000000
+      internalID: -8482187299390866722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 56
+        width: 131
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0f6a65e99ac480800000000000000
+      internalID: -8878114504795287735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_36
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 55
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928738ea828f91290800000000000000
+      internalID: -7919025616144074711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 55
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51478e3bbc35300800000000000000
+      internalID: 239759178740274642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 59
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6a0825fac94c8f0800000000000000
+      internalID: -521119380050762010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_39
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 59
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f0e2c52521c3730800000000000000
+      internalID: 3980076315631816488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_40
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 97
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7ae7ef77ea659f0800000000000000
+      internalID: -480004479874324554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_41
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 59
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de6384525415dfb0800000000000000
+      internalID: -4623767098588172588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_42
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 55
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c705cc68580d28f00800000000000000
+      internalID: 1117684929452068988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_43
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 58
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdcea892909e13f0800000000000000
+      internalID: -928145513890525754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_44
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 55
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37468c8eb1924820800000000000000
+      internalID: 2901041357567444797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_45
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 56
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5241696052d2140800000000000000
+      internalID: 4696450696635229619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_46
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 55
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc3f7721d45ef8b0800000000000000
+      internalID: -5116558869358756668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_47
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 59
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049ff4f2c7445ec20800000000000000
+      internalID: 3235067207495973184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GlorpentinesLogoTransparent_48
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 59
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b986ffcfe56be0800000000000000
+      internalID: -1484516825675220540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GlorpentinesLogoTransparent_0: 8807603980980523913
+      GlorpentinesLogoTransparent_1: 8871048268760292259
+      GlorpentinesLogoTransparent_10: 1714186155450317167
+      GlorpentinesLogoTransparent_11: 4345582161271342820
+      GlorpentinesLogoTransparent_12: 6212444242147049075
+      GlorpentinesLogoTransparent_13: 5382790933141228617
+      GlorpentinesLogoTransparent_14: -5022352582004544163
+      GlorpentinesLogoTransparent_15: -7965861632673089092
+      GlorpentinesLogoTransparent_16: -9191114310337610693
+      GlorpentinesLogoTransparent_17: -4578088426139498747
+      GlorpentinesLogoTransparent_18: 7804241947177176764
+      GlorpentinesLogoTransparent_19: -7266467899740837825
+      GlorpentinesLogoTransparent_2: -655476716449511362
+      GlorpentinesLogoTransparent_20: -4348404222568567943
+      GlorpentinesLogoTransparent_21: 3434990999164429101
+      GlorpentinesLogoTransparent_22: 4745441191844992707
+      GlorpentinesLogoTransparent_23: 155724339568339524
+      GlorpentinesLogoTransparent_24: 7127355422865421471
+      GlorpentinesLogoTransparent_25: -3070873880540727718
+      GlorpentinesLogoTransparent_26: -8366436066857958222
+      GlorpentinesLogoTransparent_27: -649815592914340681
+      GlorpentinesLogoTransparent_28: 2532033766518775685
+      GlorpentinesLogoTransparent_29: -2214169730905239350
+      GlorpentinesLogoTransparent_3: -5720721429546623783
+      GlorpentinesLogoTransparent_30: -7779793378915818460
+      GlorpentinesLogoTransparent_31: 3650314159847212864
+      GlorpentinesLogoTransparent_32: 5916808443536571302
+      GlorpentinesLogoTransparent_33: -2256151642500621181
+      GlorpentinesLogoTransparent_34: -8482187299390866722
+      GlorpentinesLogoTransparent_35: -8878114504795287735
+      GlorpentinesLogoTransparent_36: -7919025616144074711
+      GlorpentinesLogoTransparent_37: 239759178740274642
+      GlorpentinesLogoTransparent_38: -521119380050762010
+      GlorpentinesLogoTransparent_39: 3980076315631816488
+      GlorpentinesLogoTransparent_4: -548226218907085203
+      GlorpentinesLogoTransparent_40: -480004479874324554
+      GlorpentinesLogoTransparent_41: -4623767098588172588
+      GlorpentinesLogoTransparent_42: 1117684929452068988
+      GlorpentinesLogoTransparent_43: -928145513890525754
+      GlorpentinesLogoTransparent_44: 2901041357567444797
+      GlorpentinesLogoTransparent_45: 4696450696635229619
+      GlorpentinesLogoTransparent_46: -5116558869358756668
+      GlorpentinesLogoTransparent_47: 3235067207495973184
+      GlorpentinesLogoTransparent_48: -1484516825675220540
+      GlorpentinesLogoTransparent_5: 5187220430357897926
+      GlorpentinesLogoTransparent_6: -7944325305404329491
+      GlorpentinesLogoTransparent_7: 3975706819211385289
+      GlorpentinesLogoTransparent_8: -4812019388410004590
+      GlorpentinesLogoTransparent_9: -8091209278818134108
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
