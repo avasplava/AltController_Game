@@ -90,7 +90,7 @@ public class TeacherStates : MonoBehaviour
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 3)
+                    if (stateChangeChance >= 2)
                     {
                         Debug.Log("Change to DANGER State");
                         teacherState = TEACHER_STATE.Danger;
@@ -113,7 +113,7 @@ public class TeacherStates : MonoBehaviour
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {
                     //Debug.Log("Everyone is working. Safe"); // TJ! commented out cause fills up debug log
-                    if (teacherTime >= 2.5f)
+                    if (teacherTime >= 2f)
                     {
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;

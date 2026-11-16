@@ -4405,7 +4405,7 @@ MonoBehaviour:
   maxLoveMeter: 100
   currentLoveMeter: 0
   progressGain: 0.05
-  progressLoss: 0.01
+  progressLoss: 0.02
   loveSlider: {fileID: 1979340702}
   clockSlider: {fileID: 2107543442}
   loseScreen: {fileID: 445243854}
@@ -4414,7 +4414,7 @@ MonoBehaviour:
   gameTimer: 90
   minuteHand: {fileID: 1752894230}
   teacher: {fileID: 1233202981}
-  caughtSequenceDuration: 0.8
+  caughtSequenceDuration: 1
 --- !u!82 &1218314133
 AudioSource:
   m_ObjectHideFlags: 0
