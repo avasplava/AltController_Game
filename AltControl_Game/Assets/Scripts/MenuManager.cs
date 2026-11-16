@@ -80,12 +80,7 @@ public class MenuManager : MonoBehaviour
         tutorialScreen.SetActive(false);
         gameScene.SetActive(true);
 
-        //Reset timer and love meter
-        gm.currentLoveMeter = 0;
-        gm.gameTimer = gm.clockSlider.maxValue;
-
-        gm.loveSlider.value = gm.currentLoveMeter;
-        gm.clockSlider.value = gm.gameTimer;
+        gm.ResetGame();
     }
 
         public void ReturnToMenu()

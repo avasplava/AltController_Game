@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
 
     public RectTransform minuteHand; // TJ, where u drag the clock hang image in the insepctor
 
+    public TeacherStates teacher;
+    public float caughtSequenceDuration = 2f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -49,7 +52,7 @@ public class GameManager : MonoBehaviour
         float angle = (1f - progress) * 360f; // TJ, gets the angle of the clock hand based on the progress of the timer.
         minuteHand.eulerAngles = new Vector3(0, 0, -angle); // TJ, applys the rotation to the clock hand.
 
-        if(gameTimer <= 0)
+        if(gameTimer <= 0 && !player.controlsLocked)
         {
             LoseGame();
         }
@@ -90,7 +93,7 @@ public class GameManager : MonoBehaviour
         
 
         loseScreen.SetActive(true);
-        //gameScene.SetActive(false);
+        gameScene.SetActive(false);
     }
 
     public void RestartGame() //TJ, retry game function. to um... retry game hah
@@ -102,6 +105,58 @@ public class GameManager : MonoBehaviour
     {
         winScreen.SetActive(true);
         gameScene.SetActive(false);
+    }
+
+    public void ResetGame()
+    {
+        player.controlsLocked = false;
+        player.kissingSprite.SetActive(false);
+        player.playerOne.SetActive(true);
+        player.playerTwo.SetActive(true);
+        player.playerOne.GetComponent<SpriteRenderer>().sprite = player.spriteList[0];
+        player.playerTwo.GetComponent<SpriteRenderer>().sprite = player.spriteList[3];
+        teacher.caughtAnimationPlaying = false;
+        teacher.teacherState = TeacherStates.TEACHER_STATE.Safe;
+        teacher.teacherTime = 0f;
+        teacher.teacherSprite.sprite = teacher.teacherSprites[0];
+        currentLoveMeter = 0;
+        gameTimer = clockSlider.maxValue;
+        loveSlider.value = currentLoveMeter;
+        clockSlider.value = gameTimer;
+    }
+
+    public void StartCaughtSequence(bool endGame)
+    {
+        StartCoroutine(CaughtSequence(endGame));
+    }
+
+    IEnumerator CaughtSequence(bool endGame)
+    {
+        player.controlsLocked = true;
+        player.kissingSprite.SetActive(false);
+
+        player.playerOne.SetActive(true);
+        player.playerTwo.SetActive(true);
+
+        player.playerOne.GetComponent<SpriteRenderer>().sprite = player.spriteList[2];
+        player.playerTwo.GetComponent<SpriteRenderer>().sprite = player.spriteList[5];
+        
+        teacher.caughtAnimationPlaying = true;
+        teacher.teacherSprite.sprite = teacher.teacherSprites[3];
+        
+        yield return new WaitForSeconds(caughtSequenceDuration);
+
+        if (endGame)
+        {
+            LoseGame();
+        }
+        else
+        {
+            player.controlsLocked = false;
+            teacher.caughtAnimationPlaying = false;
+            teacher.teacherState = TeacherStates.TEACHER_STATE.Safe;
+            teacher.teacherTime = 0f;
+        }
     }
 
 }

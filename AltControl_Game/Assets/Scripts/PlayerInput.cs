@@ -26,6 +26,9 @@ public class PlayerInput : MonoBehaviour
     public TMP_Text playerOneWorkText;
     public TMP_Text playerTwoWorkText;
 
+    public bool controlsLocked = false;
+
+
     void Start()
     {
         playerOne.GetComponent<SpriteRenderer>().sprite = spriteList[0]; //These will ensure that the players sprites are defaulted to Idle at the start of the scene
@@ -38,6 +41,10 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (controlsLocked)
+        {
+            return;
+        }
         // TJ, The bools are true if the input is pressed
         playerOneWorking = Input.GetKey(KeyCode.A);
 

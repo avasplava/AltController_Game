@@ -25,6 +25,8 @@ public class TeacherStates : MonoBehaviour
 
     public TEACHER_STATE teacherState;
 
+    public bool caughtAnimationPlaying = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,6 +37,10 @@ public class TeacherStates : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (caughtAnimationPlaying)
+        {
+            return;
+        }
         teacherTime += Time.deltaTime;
 
         switch (teacherState)
@@ -100,8 +106,7 @@ public class TeacherStates : MonoBehaviour
                 {
                     //Change player sprites to the Caught Ones!
                     Debug.Log("You've been caught!"); //Just to make sure it works
-
-                    gm.LoseGame(); //TJ! calls losegame function in game manager script
+                    gm.StartCaughtSequence(true);
                 }
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {
@@ -117,9 +122,11 @@ public class TeacherStates : MonoBehaviour
                 {
                     Debug.Log("Someone isnt working");
                     gm.currentLoveMeter -= teacherProgressDecrease;
+                    gm.currentLoveMeter = Mathf.Max(0, gm.currentLoveMeter); //makes sure the love meter doesn't go below 0
                     gm.loveSlider.value = gm.currentLoveMeter;
                     //gm.ProgressDecrease();
-                    teacherState = TEACHER_STATE.Safe;      
+                    teacherState = TEACHER_STATE.Safe;
+                    gm.StartCaughtSequence(false);     
                 }
                 break;
         }
