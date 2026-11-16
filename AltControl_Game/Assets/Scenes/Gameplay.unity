@@ -339,9 +339,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218314132}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartGame
+      - m_Target: {fileID: 572212034}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: ReturnToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4411,7 +4411,7 @@ MonoBehaviour:
   loseScreen: {fileID: 445243854}
   winScreen: {fileID: 1227266331}
   gameScene: {fileID: 1778901471}
-  gameTimer: 40
+  gameTimer: 90
   minuteHand: {fileID: 1752894230}
   teacher: {fileID: 1233202981}
   caughtSequenceDuration: 0.8

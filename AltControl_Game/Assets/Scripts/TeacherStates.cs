@@ -49,20 +49,20 @@ public class TeacherStates : MonoBehaviour
                 stateText.text = ("State: Safe");
                 teacherSprite.sprite = teacherSprites[0];
                  //Teacher sprite is normal teaching sprite
-                //Every 5 seconds? make the teacher choose wheter or not to go into the Sus state
-                if (teacherTime >= 5f)
+                //Every few seconds make the teacher choose wheter or not to go into the Sus state
+                if (teacherTime >= 3f)
                 {
-                    Debug.Log("Timer hit 5 seconds, teacher going into Sus mode maybe idk bruh");
+                    Debug.Log("Timer hit 3 seconds, teacher going into Sus mode maybe idk bruh");
                     //RANDOM THINGY HERE GAH
-                    int stateChangeChance = Random.Range(1, 5);
+                    int stateChangeChance = Random.Range(1, 6);
 
-                    if (stateChangeChance <= 2)
+                    if (stateChangeChance == 1)
                     {
                         Debug.Log("Change to Safe State");
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
                     }
-                    if (stateChangeChance >= 3)
+                    if (stateChangeChance >= 2)
                     {
                         Debug.Log("Change to Sus State");
                         teacherState = TEACHER_STATE.Sus;
@@ -76,11 +76,13 @@ public class TeacherStates : MonoBehaviour
                 teacherSprite.sprite = teacherSprites[1];
                 //Teacher sprite changes to the suspicious sprite gasp
                 //This can be used to pysch the players out hehe
-                //Can make the script decided whether the teacher switches back to Safe state or go into Alert state
+                //Can make the script decide whether the teacher switches back to Safe state or go into Danger state
 
-                if (teacherTime >= 3f) //Change this to be between like 2 to five seconds randomly
+                float teacherTimeChange = Random.Range(1f, 3f); //picks out a random time for the teacher to stay in this state for
+                Debug.Log("New teacher time: " + teacherTimeChange);
+                if (teacherTime >= teacherTimeChange)
                 {
-                    int stateChangeChance = Random.Range(1, 10);
+                    int stateChangeChance = Random.Range(1, 5);
 
                     if (stateChangeChance <= 2)
                     {
@@ -111,7 +113,7 @@ public class TeacherStates : MonoBehaviour
                 else if (playerInput.playerOneWorking && playerInput.playerTwoWorking) //TJ! Checks if both players are working
                 {
                     //Debug.Log("Everyone is working. Safe"); // TJ! commented out cause fills up debug log
-                    if (teacherTime >= 3f)
+                    if (teacherTime >= 2.5f)
                     {
                         teacherState = TEACHER_STATE.Safe;
                         teacherTime = 0f;
